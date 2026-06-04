@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunlands</title>
+
+    <link rel="icon" href="images/Ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <!-- HERO -->
+
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>Gunlands</h1>
+            <p>A Fast Paced, Gun-Building Roguelike, Coming Soon....</p>
+
+            <div class="buttons">
+                <a href="#" class="btn secondary" id="wishlistBtn">Wishlist On Steam</a>
+                <a href="https://discord.gg/c2nkUuY8e4" class="btn" rel="noopener noreferrer">Join Discord</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            Scroll ↓
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+        <div class="container">
+            <h2>About</h2>
+
+            <p>
+                Gunlands is an fps action roguelike about crafting weapons and fighting an evil cult build to overthrow the world with an army of ascended mind-controlled soliders.  
+            </p>
+            
+            <p>
+                Find gun parts, assemble them into a weapon of mass destruction, and let the chaos rain down upon your enemies.
+            </p>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="cards">
+            <div class="card">
+                <h3> Randomized Dungeons </h3>
+                <p> Procedural dungeons that learn from player builds and provides apt challenge that will be engaging for every player </p>
+            </div>
+
+            <div class="card">
+                <h3> Limitless Gun Crafting </h3>
+                <p> Millions of combinations of effects on gun parts means that no one run is the same, every gun piece is generated and found within the dungeon </p>
+            </div>
+
+            <div class="card">
+                <h3> Faced Paced Combat </h3>
+                <p> Intense combat inspired by the likes of Ultrakill and Doom, focused on speed and movement with powerful feeling weapons </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMMUNITY -->
+
+    <section class="community">
+        <div class="container">
+
+            <h2>Get Involved</h2>
+
+            <p>
+                Join our community, participate in playtests,
+                and help shape the future of the game.
+            </p>
+
+            <div class="buttons">
+                <a href="https://discord.gg/c2nkUuY8e4" class="btn" rel="noopener noreferrer">Join Discord</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+
+        <h2>Stay Updated</h2>
+
+        <p>
+            Be the first to know about updates,
+            announcements, and playtests.
+        </p>
+
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSesETlWGJ6k5x1rtqDrxKPGL54-v-WD4sfuPSHYe2uyfTRbOg/formResponse" method="POST" target="_blank">
+            <input
+                type="Email"
+                name="entry.1575133935"
+                placeholder="Enter your email" required
+            >
+            <button type="submit" target="_blank">
+                Notify Me
+            </button>
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 Joe Rickwood</p>
+    </footer>
+
+<script>
+document.getElementById("wishlistBtn").addEventListener("click", function(e) {
+    e.preventDefault(); // stops "#" jump
+
+    this.textContent = "Coming Soon!";
+});
+</script>
+
+</body>
+</html>
