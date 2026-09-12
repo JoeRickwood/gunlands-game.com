@@ -62,6 +62,17 @@ img {
     text-align: center;
 }
 
+.hero-bottom {
+    padding: 0;
+    width: 100%;
+}
+
+.hero-bottom img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .overlay {
     position: absolute;
     inset: 0;
